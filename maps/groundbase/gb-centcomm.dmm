@@ -50,6 +50,12 @@
 	icon_state = "dark"
 	},
 /area/centcom/specops)
+"aj" = (
+/turf/simulated/shuttle/wall/shuttle_rascal/evac{
+	dir = 4;
+	icon_state = "6,22"
+	},
+/area/shuttle/escape)
 "al" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/storage/firstaid/o2{
@@ -1231,6 +1237,12 @@
 	icon_state = "dark"
 	},
 /area/centcom/specops)
+"en" = (
+/turf/simulated/shuttle/wall/shuttle_rascal/evac{
+	dir = 4;
+	icon_state = "4,20"
+	},
+/area/shuttle/escape)
 "eo" = (
 /obj/effect/floor_decal/sign/dock/one,
 /obj/effect/floor_decal/industrial/warning/dust{
@@ -1453,6 +1465,12 @@
 /obj/structure/table/reinforced,
 /turf/simulated/floor/tiled/dark,
 /area/centcom/security)
+"eX" = (
+/turf/simulated/shuttle/wall/shuttle_rascal/evac{
+	dir = 4;
+	icon_state = "5,22"
+	},
+/area/shuttle/escape)
 "eY" = (
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 4
@@ -1705,6 +1723,12 @@
 	icon_state = "dark"
 	},
 /area/centcom/control)
+"fP" = (
+/turf/simulated/shuttle/wall/shuttle_rascal/evac{
+	dir = 4;
+	icon_state = "7,24"
+	},
+/area/shuttle/escape)
 "fQ" = (
 /obj/structure/filingcabinet/filingcabinet,
 /turf/simulated/floor/tiled,
@@ -1750,6 +1774,12 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/centcom/medical)
+"fZ" = (
+/turf/simulated/shuttle/wall/shuttle_rascal/evac{
+	dir = 4;
+	icon_state = "10,24"
+	},
+/area/shuttle/escape)
 "ga" = (
 /obj/structure/table/reinforced,
 /obj/item/device/aicard,
@@ -1846,6 +1876,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/centcom/terminal/tramfluff)
+"gq" = (
+/turf/simulated/shuttle/wall/shuttle_rascal/evac{
+	dir = 4;
+	icon_state = "9,24"
+	},
+/area/shuttle/escape)
 "gr" = (
 /obj/effect/floor_decal/emblem/stellardelight{
 	dir = 4
@@ -2091,11 +2127,10 @@
 	},
 /area/centcom/specops)
 "hm" = (
-/obj/structure/bed/chair/shuttle{
-	dir = 4
+/turf/simulated/shuttle/wall/shuttle_rascal/evac{
+	dir = 4;
+	icon_state = "6,23"
 	},
-/obj/machinery/alarm,
-/turf/simulated/shuttle/floor/black,
 /area/shuttle/escape)
 "hn" = (
 /obj/effect/floor_decal/corner_steel_grid{
@@ -2560,6 +2595,12 @@
 	},
 /turf/simulated/shuttle/wall,
 /area/shuttle/supply)
+"iZ" = (
+/turf/simulated/shuttle/wall/shuttle_rascal/evac{
+	dir = 4;
+	icon_state = "11,20"
+	},
+/area/shuttle/escape)
 "jb" = (
 /obj/machinery/autolathe{
 	desc = "Your typical Autolathe. It appears to have much more options than your regular one, however...";
@@ -3124,15 +3165,10 @@
 /turf/simulated/floor/tiled/dark,
 /area/centcom/security)
 "lb" = (
-/obj/structure/shuttle/window,
-/obj/structure/grille,
-/obj/effect/shuttle_landmark{
-	base_area = /area/centcom;
-	base_turf = /turf/simulated/floor/reinforced;
-	landmark_tag = "escape_cc";
-	name = "Escape Centcom"
+/turf/simulated/shuttle/wall/shuttle_rascal/evac{
+	dir = 4;
+	icon_state = "8,24"
 	},
-/turf/simulated/floor,
 /area/shuttle/escape)
 "lc" = (
 /obj/machinery/button/remote/blast_door{
@@ -4011,6 +4047,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/centcom/main_hall)
+"nR" = (
+/turf/simulated/shuttle/wall/shuttle_rascal/evac{
+	dir = 4;
+	icon_state = "5,20"
+	},
+/area/shuttle/escape)
 "nU" = (
 /obj/structure/table/woodentable{
 	dir = 5
@@ -5454,6 +5496,16 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/centcom/medical)
+"sn" = (
+/obj/machinery/computer/shuttle_control/emergency{
+	dir = 8
+	},
+/obj/machinery/light/floortube{
+	dir = 4;
+	pixel_x = 6
+	},
+/turf/simulated/shuttle/floor,
+/area/shuttle/escape)
 "so" = (
 /obj/machinery/door/blast/regular{
 	density = 0;
@@ -6226,6 +6278,12 @@
 	icon_state = "floor_yellow"
 	},
 /area/centcom/terminal)
+"vc" = (
+/turf/simulated/shuttle/wall/shuttle_rascal/evac{
+	dir = 4;
+	icon_state = "6,24"
+	},
+/area/shuttle/escape)
 "vd" = (
 /turf/simulated/floor/tiled,
 /area/centcom/living)
@@ -6488,6 +6546,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/centcom/command)
+"vV" = (
+/turf/simulated/shuttle/wall/shuttle_rascal/evac{
+	dir = 4;
+	icon_state = "2,20"
+	},
+/area/shuttle/escape)
 "vW" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -7217,6 +7281,12 @@
 /obj/structure/sign/department/eva,
 /turf/simulated/wall/r_wall,
 /area/centcom/security)
+"yg" = (
+/turf/simulated/shuttle/wall/shuttle_rascal/evac{
+	dir = 4;
+	icon_state = "5,23"
+	},
+/area/shuttle/escape)
 "yh" = (
 /obj/structure/table/woodentable,
 /obj/item/weapon/material/ashtray/glass,
@@ -7382,6 +7452,12 @@
 	icon_state = "dark"
 	},
 /area/centcom/specops)
+"yE" = (
+/turf/simulated/shuttle/wall/shuttle_rascal/evac{
+	dir = 4;
+	icon_state = "8,23"
+	},
+/area/shuttle/escape)
 "yG" = (
 /obj/structure/table/rack,
 /obj/item/weapon/tank/emergency/oxygen/double,
@@ -7501,6 +7577,9 @@
 /obj/structure/closet/crate/bin,
 /turf/simulated/floor/tiled,
 /area/centcom/main_hall)
+"zd" = (
+/turf/simulated/shuttle/wall/shuttle_rascal/evac,
+/area/shuttle/escape)
 "zf" = (
 /turf/simulated/floor/tiled/dark,
 /area/centcom/security{
@@ -7977,6 +8056,9 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/centcom/security)
+"AC" = (
+/turf/simulated/floor/reinforced,
+/area/shuttle/escape)
 "AF" = (
 /turf/simulated/wall/r_wall,
 /area/centcom/restaurant)
@@ -8128,6 +8210,12 @@
 /obj/machinery/vending/coffee,
 /turf/simulated/floor/tiled,
 /area/centcom/command)
+"Bl" = (
+/turf/simulated/shuttle/wall/shuttle_rascal/evac{
+	dir = 4;
+	icon_state = "11,21"
+	},
+/area/shuttle/escape)
 "Bm" = (
 /obj/structure/bed/chair/wood/wings{
 	dir = 4
@@ -8721,6 +8809,12 @@
 /obj/structure/bed/chair/office/dark,
 /turf/simulated/floor/tiled/white,
 /area/centcom/medical)
+"Dv" = (
+/turf/simulated/shuttle/wall/shuttle_rascal/evac{
+	dir = 4;
+	icon_state = "15,20"
+	},
+/area/shuttle/escape)
 "Dx" = (
 /obj/effect/floor_decal/fancy_shuttle{
 	fancy_shuttle_tag = "tram"
@@ -9266,6 +9360,12 @@
 	icon_state = "white"
 	},
 /area/centcom/living)
+"Fh" = (
+/turf/simulated/shuttle/wall/shuttle_rascal/evac{
+	dir = 4;
+	icon_state = "9,23"
+	},
+/area/shuttle/escape)
 "Fi" = (
 /obj/machinery/door/window/brigdoor{
 	req_access = list(63);
@@ -9361,6 +9461,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/centcom/security)
+"FA" = (
+/turf/simulated/shuttle/wall/shuttle_rascal/evac{
+	dir = 4;
+	icon_state = "7,25"
+	},
+/area/shuttle/escape)
 "FB" = (
 /obj/effect/floor_decal/steeldecal/steel_decals9{
 	dir = 4
@@ -9572,6 +9678,12 @@
 /obj/item/device/taperecorder,
 /turf/simulated/floor/tiled/dark,
 /area/centcom/security)
+"Gp" = (
+/turf/simulated/shuttle/wall/shuttle_rascal/evac{
+	dir = 4;
+	icon_state = "11,23"
+	},
+/area/shuttle/escape)
 "Gr" = (
 /obj/structure/table/rack,
 /obj/item/weapon/gun/projectile/automatic/l6_saw,
@@ -10516,6 +10628,12 @@
 /obj/item/weapon/card/id/gold/captain/spare,
 /turf/simulated/floor/tiled,
 /area/centcom/control)
+"Jh" = (
+/turf/simulated/shuttle/wall/shuttle_rascal/evac{
+	dir = 4;
+	icon_state = "10,22"
+	},
+/area/shuttle/escape)
 "Ji" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 5
@@ -10850,6 +10968,9 @@
 	},
 /turf/simulated/floor/tiled,
 /area/centcom/security)
+"Km" = (
+/turf/space,
+/area/shuttle/escape)
 "Kn" = (
 /obj/effect/floor_decal/borderfloorblack{
 	dir = 9
@@ -11649,6 +11770,12 @@
 /area/centcom/security{
 	name = "\improper CentCom Security Arrivals"
 	})
+"MA" = (
+/turf/simulated/shuttle/wall/shuttle_rascal/evac{
+	dir = 4;
+	icon_state = "9,25"
+	},
+/area/shuttle/escape)
 "MB" = (
 /obj/effect/floor_decal/derelict/d15,
 /turf/simulated/floor/tiled,
@@ -12148,6 +12275,12 @@
 /obj/item/weapon/folder/blue_hop,
 /turf/simulated/floor/carpet,
 /area/centcom/command)
+"Ok" = (
+/turf/simulated/shuttle/wall/shuttle_rascal/evac{
+	dir = 4;
+	icon_state = "5,21"
+	},
+/area/shuttle/escape)
 "Ol" = (
 /obj/item/weapon/stool/padded,
 /turf/simulated/floor/tiled,
@@ -13498,14 +13631,10 @@
 /turf/simulated/shuttle/floor/black,
 /area/shuttle/escape)
 "Sd" = (
-/obj/machinery/computer/shuttle_control/emergency{
-	dir = 8
-	},
-/obj/machinery/light/floortube{
+/turf/simulated/shuttle/wall/shuttle_rascal/evac{
 	dir = 4;
-	pixel_x = 6
+	icon_state = "7,23"
 	},
-/turf/simulated/shuttle/floor,
 /area/shuttle/escape)
 "Sf" = (
 /obj/structure/table/glass,
@@ -13663,6 +13792,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/centcom/terminal/tramfluff)
+"SE" = (
+/obj/structure/bed/chair/shuttle{
+	dir = 4
+	},
+/obj/machinery/alarm,
+/turf/simulated/shuttle/floor/black,
+/area/shuttle/escape)
 "SF" = (
 /obj/effect/floor_decal/steeldecal/steel_decals9,
 /obj/effect/floor_decal/steeldecal/steel_decals9{
@@ -13864,6 +14000,12 @@
 /obj/effect/floor_decal/corner/blue/border,
 /turf/simulated/floor/tiled,
 /area/centcom/command)
+"Tv" = (
+/turf/simulated/shuttle/wall/shuttle_rascal/evac{
+	dir = 4;
+	icon_state = "11,22"
+	},
+/area/shuttle/escape)
 "Tw" = (
 /obj/structure/table/glass,
 /obj/item/device/healthanalyzer/phasic,
@@ -13944,6 +14086,18 @@
 	icon_state = "dark"
 	},
 /area/centcom/specops)
+"TL" = (
+/obj/effect/shuttle_landmark{
+	base_area = /area/centcom;
+	base_turf = /turf/simulated/floor/reinforced;
+	landmark_tag = "escape_cc";
+	name = "Escape Centcom"
+	},
+/turf/simulated/shuttle/wall/shuttle_rascal/evac{
+	dir = 4;
+	icon_state = "8,25"
+	},
+/area/shuttle/escape)
 "TM" = (
 /obj/structure/table/rack,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -14037,6 +14191,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/centcom/command)
+"TZ" = (
+/turf/simulated/shuttle/wall/shuttle_rascal/evac{
+	dir = 4;
+	icon_state = "10,23"
+	},
+/area/shuttle/escape)
 "Ua" = (
 /obj/effect/floor_decal/borderfloorblack{
 	dir = 6
@@ -14355,6 +14515,12 @@
 	icon_state = "dark"
 	},
 /area/centcom/specops)
+"UZ" = (
+/turf/simulated/shuttle/wall/shuttle_rascal/evac{
+	dir = 4;
+	icon_state = "3,20"
+	},
+/area/shuttle/escape)
 "Vb" = (
 /obj/structure/table/rack,
 /obj/item/ammo_magazine/ammo_box/b12g/beanbag,
@@ -21198,7 +21364,7 @@ jh
 jh
 jh
 jh
-Ll
+Km
 Ll
 tQ
 tQ
@@ -21327,7 +21493,7 @@ bR
 SA
 tQ
 tQ
-tQ
+zd
 Ll
 Ll
 Sc
@@ -21339,9 +21505,9 @@ jh
 Sc
 Sc
 Sc
-Ll
-Ll
-tQ
+Km
+Km
+zd
 tQ
 tQ
 SA
@@ -21469,8 +21635,8 @@ bR
 SA
 tQ
 tQ
-tQ
-tQ
+zd
+AC
 Ll
 Ll
 gg
@@ -21480,10 +21646,10 @@ jh
 jh
 jh
 dG
-Ll
-Ll
-tQ
-tQ
+Km
+Km
+AC
+zd
 tQ
 tQ
 SA
@@ -21611,21 +21777,21 @@ bR
 SA
 tQ
 tQ
-tQ
-tQ
-tQ
-Ll
-Ll
-Sc
+zd
+zd
+zd
+zd
+nR
+SE
 Sc
 jh
 Sc
 Sc
-Ll
-Ll
-tQ
-tQ
-tQ
+iZ
+vV
+UZ
+en
+Dv
 tQ
 tQ
 SA
@@ -21757,13 +21923,13 @@ tQ
 tQ
 tQ
 tQ
-ae
+Ok
 Sc
 Sc
 jh
 Sc
 Sc
-ae
+Bl
 tQ
 tQ
 tQ
@@ -21899,13 +22065,13 @@ tQ
 tQ
 tQ
 tQ
-ae
+eX
+aj
 Sc
+sn
 Sc
-jh
-Sc
-Sc
-ae
+Jh
+Tv
 tQ
 tQ
 tQ
@@ -22041,13 +22207,13 @@ tQ
 tQ
 tQ
 tQ
-Ll
+yg
 hm
-Sc
 Sd
-Sc
-Sc
-Ll
+yE
+Fh
+TZ
+Gp
 tQ
 tQ
 tQ
@@ -22183,13 +22349,13 @@ tQ
 tQ
 tQ
 tQ
-Ll
-Ll
-ae
+tQ
+vc
+fP
 lb
-ae
-Ll
-Ll
+gq
+fZ
+tQ
 tQ
 tQ
 tQ
@@ -22327,9 +22493,9 @@ tQ
 tQ
 tQ
 tQ
-tQ
-tQ
-tQ
+FA
+TL
+MA
 tQ
 tQ
 tQ

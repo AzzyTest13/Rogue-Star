@@ -140,6 +140,16 @@
 	/obj/machinery/door/airlock/voidcraft
 	)
 
+/turf/simulated/shuttle/wall/shuttle_rascal
+	name = "shuttle wall"
+	icon = 'icons/turf/shuttle_rascal.dmi'
+	opacity = 1
+	density = TRUE
+	blocks_air = 1
+
+/turf/simulated/shuttle/wall/shuttle_rascal/evac
+	icon = 'icons/turf/evac_shuttle.dmi'
+
 /turf/simulated/shuttle/wall/hard_corner
 	name = "hardcorner wall"
 	icon_state = "light-hc"
