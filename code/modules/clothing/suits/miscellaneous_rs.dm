@@ -1,5 +1,5 @@
 /obj/item/clothing/suit/storage/talonbomberjacket
-	name = "Talon pilot bomber jacket"
+	name = "Talon bomber jacket"
 	desc = "A blue bomber jacket worn by the ITV Talon's piloting personnel, it has a nametag on the breast, it's incredibly warm, and comfortable. The collar and wrists consists of synthetic fur."
 	icon = 'icons/inventory/suit/item_rs.dmi'
 	default_worn_icon = 'icons/inventory/suit/mob_rs.dmi'
