@@ -68,7 +68,7 @@ var/global/list/latejoin_talon = list()
 /obj/machinery/computer/shuttle_control/explore/talonboat
 	name = "shuttle control console"
 	shuttle_tag = "Talon's Shuttle"
-	req_one_access = list(access_talon_pilot)
+	req_one_access = list(access_talon_pilot) //RS Edit
 
 /obj/effect/overmap/visitable/ship/landable/talon_boat
 	name = "ITV Talon Shuttle"
@@ -282,7 +282,7 @@ if you have to punch out, do it whilst the ship is in open space. the pod has <b
 personally I recommend using the ship's boat if you need to evacuate, but if you're stuck with the pod then... good luck!<br>\
 <br>\
 <i>Harry Townes</i>"}
-
+//RS Add
 /obj/item/weapon/paper/secret_vendornote
 	name = "secret note"
 	info = {"well, if you're reading this note, then I've managed to install, a couple of funny things inside the vending machine.<br>\
@@ -314,7 +314,7 @@ so... Use it wisely and good luck!<br>\
 
 /obj/item/weapon/card/id/synthetic/talon/Initialize()
 	. = ..()
-	access = list(access_talon, access_talon_bridge, access_talon_medical, access_talon_engineer, access_talon_cargo, access_talon_security, access_talon_pilot, access_synth)
+	access = list(access_talon, access_talon_bridge, access_talon_medical, access_talon_engineer, access_talon_cargo, access_talon_security, access_talon_pilot, access_synth) //RS Edit
 
 /obj/machinery/power/smes/buildable/offmap_spawn/New()
 	..(1)
@@ -406,8 +406,8 @@ so... Use it wisely and good luck!<br>\
 	closet_appearance = /decl/closet_appearance/secure_closet/talon/captain
 
 	starts_with = list(
-		/obj/item/weapon/storage/backpack/dufflebag/talon,
-		/obj/item/clothing/under/rank/talon/command/refreshed,
+		/obj/item/weapon/storage/backpack/dufflebag/talon, //RS Add
+		/obj/item/clothing/under/rank/talon/command/refreshed, //RS Add
 		/obj/item/clothing/head/beret/talon/command,
 		/obj/item/clothing/suit/storage/vest,
 		/obj/item/clothing/head/helmet,
@@ -433,7 +433,7 @@ so... Use it wisely and good luck!<br>\
 		/obj/item/clothing/head/helmet,
 		/obj/item/clothing/under/utility,
 		/obj/item/clothing/head/soft/talon,
-		/obj/item/clothing/under/rank/talon/security/refreshed,
+		/obj/item/clothing/under/rank/talon/security/refreshed, //RS Add
 		/obj/item/clothing/shoes/boots/jackboots,
 		/obj/item/clothing/shoes/boots/jackboots/toeless,
 		/obj/item/weapon/handcuffs = 2,
@@ -465,7 +465,7 @@ so... Use it wisely and good luck!<br>\
 		/obj/item/clothing/under/rank/nurse,
 		/obj/item/clothing/head/soft/talon,
 		/obj/item/clothing/under/rank/orderly,
-		/obj/item/clothing/under/rank/talon/proper/refreshed,
+		/obj/item/clothing/under/rank/talon/proper/refreshed, //RS Add
 		/obj/item/clothing/accessory/solgov/department/medical/army,
 		/obj/item/clothing/suit/storage/toggle/labcoat/modern,
 		/obj/item/clothing/suit/storage/toggle/fr_jacket,
@@ -506,7 +506,7 @@ so... Use it wisely and good luck!<br>\
 
 /obj/structure/closet/secure_closet/talon_pilot
 	name = "talon pilot's locker"
-	req_access = list(access_talon_pilot)
+	req_access = list(access_talon_pilot) //RS Edit
 	closet_appearance = /decl/closet_appearance/secure_closet/talon/pilot
 
 	starts_with = list(
@@ -514,7 +514,7 @@ so... Use it wisely and good luck!<br>\
 		/obj/item/clothing/accessory/solgov/department/service/army,
 		/obj/item/clothing/head/pilot,
 		/obj/item/clothing/under/rank/pilot1,
-		/obj/item/clothing/under/rank/talon/pilot/refreshed,
+		/obj/item/clothing/under/rank/talon/pilot/refreshed, //RS Add
 		/obj/item/clothing/suit/storage/toggle/bomber/pilot,
 		/obj/item/clothing/gloves/fingerless,
 		/obj/item/weapon/reagent_containers/food/snacks/liquidfood,
@@ -541,7 +541,7 @@ so... Use it wisely and good luck!<br>\
 
 	starts_with = list(
 		/obj/item/device/radio/headset/talon,
-		/obj/item/clothing/under/rank/talon/basic/refreshed,
+		/obj/item/clothing/under/rank/talon/basic/refreshed, //RS Add
 		/obj/item/clothing/head/soft/talon,
 		/obj/item/clothing/head/helmet/space/void/refurb/mining/talon,
 		/obj/item/clothing/suit/space/void/refurb/mining/talon,
@@ -576,7 +576,7 @@ so... Use it wisely and good luck!<br>\
 	idle_power_usage = 211 //refrigerator - believe it or not, this is actually the average power consumption of a refrigerated vending machine according to NRCan.
 	req_log_access = access_talon
 	has_logs = 1
-
+//RS Add
 /obj/machinery/vending/talondrobe
 	name = "Talon Uniforms official"
 	desc = "Created for those who want to look the latest in Talon fashion!"
