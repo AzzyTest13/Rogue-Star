@@ -53,7 +53,7 @@ var/const/access_pilot = 67
 	desc = "Talon Security"
 	access_type = ACCESS_TYPE_PRIVATE
 
-/var/const/access_talon_pilot = 307
+/var/const/access_talon_pilot = 307 //RS Add
 /datum/access/talon_pilot
 	id = access_talon_pilot
 	desc = "Talon Pilot"

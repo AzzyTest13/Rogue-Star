@@ -29,7 +29,7 @@
 	pto_type = PTO_TALON
 	timeoff_factor = 1
 	dept_time_required = 60
-	access = list(access_talon, access_talon_bridge, access_talon_medical, access_talon_engineer, access_talon_cargo, access_talon_security, access_talon_pilot)
+	access = list(access_talon, access_talon_bridge, access_talon_medical, access_talon_engineer, access_talon_cargo, access_talon_security, access_talon_pilot) //RS Edit
 	minimal_access = list(access_talon, access_talon_bridge, access_talon_medical, access_talon_engineer, access_talon_cargo, access_talon_security, access_talon_pilot)
 	alt_titles = list("Talon Commander" = /datum/alt_title/talon_commander, "Rogue Trader" = /datum/alt_title/rogue_trader)
 
@@ -183,7 +183,6 @@
 
 	l_ear = /obj/item/device/radio/headset/talon
 	glasses = /obj/item/clothing/glasses/sunglasses
-	head = /obj/item/clothing/head/caphat/talon/refreshed
 	uniform = /obj/item/clothing/under/rank/talon/command
 	suit = /obj/item/clothing/suit/storage/talonbomberjacket/captain
 	shoes = /obj/item/clothing/shoes/laceup // RS Edit
@@ -201,7 +200,7 @@
 
 	l_ear = /obj/item/device/radio/headset/talon
 	shoes = /obj/item/clothing/shoes/black
-	head = /obj/item/clothing/head/caphat/talon/refreshed
+	head = /obj/item/clothing/head/caphat/talon/refreshed  //RS edit
 	uniform = /obj/item/clothing/under/rank/talon/pilot
 	suit = /obj/item/clothing/suit/storage/talonbomberjacket
 	gloves = /obj/item/clothing/gloves/fingerless
@@ -224,7 +223,6 @@
 	backpack = /obj/item/weapon/storage/backpack/medic
 	satchel_one = /obj/item/weapon/storage/backpack/satchel/med
 	messenger_bag = /obj/item/weapon/storage/backpack/messenger/med
-	head = /obj/item/clothing/head/soft/talon/refreshed
 	uniform = /obj/item/clothing/under/rank/talon/proper
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat/talon
 	l_hand = /obj/item/weapon/storage/firstaid/regular
@@ -248,7 +246,6 @@
 	backpack = /obj/item/weapon/storage/backpack/security
 	satchel_one = /obj/item/weapon/storage/backpack/satchel/sec
 	messenger_bag = /obj/item/weapon/storage/backpack/messenger/sec
-	head = /obj/item/clothing/head/beret/talon/command/refreshed
 	uniform = /obj/item/clothing/under/rank/talon/security
 	l_pocket = /obj/item/device/flash
 	backpack = /obj/item/weapon/storage/backpack/talon
@@ -271,7 +268,6 @@
 	backpack = /obj/item/weapon/storage/backpack/industrial
 	satchel_one = /obj/item/weapon/storage/backpack/satchel/eng
 	messenger_bag = /obj/item/weapon/storage/backpack/messenger/engi
-	head = /obj/item/clothing/head/soft/talon/refreshed
 	uniform = /obj/item/clothing/under/rank/talon/basic
 	belt = /obj/item/weapon/storage/belt/utility/atmostech
 	backpack = /obj/item/weapon/storage/backpack/talon
@@ -291,7 +287,6 @@
 	shoes = /obj/item/clothing/shoes/boots/workboots
 	r_pocket = /obj/item/weapon/storage/bag/ore
 	l_pocket = /obj/item/weapon/tool/crowbar
-	head = /obj/item/clothing/head/soft/talon/refreshed
 	uniform = /obj/item/clothing/under/rank/talon/basic
 	backpack = /obj/item/weapon/storage/backpack/talon
 	satchel_one = /obj/item/weapon/storage/backpack/satchel/talon

@@ -90,10 +90,10 @@
 /area/talon_v2/armory
 	name = "\improper Talon - Armory"
 	icon_state = "red"
-/area/talon_v2/eva_storage
+/area/talon_v2/eva_storage // RS Edit
 	name = "\improper Talon - Eva Storage"
 	icon_state = "red"
-/area/talon_v2/secure_storage
+/area/talon_v2/secure_storage // RS Add
 	name = "\improper Talon - Cryogenic Storage"
 	icon_state = "gray"
 /area/talon_v2/ofd_ops

@@ -76,7 +76,7 @@
 		if("PRG_txtrpeview")
 			show_browser(usr,"<HTML><HEAD><TITLE>[open_file]</TITLE></HEAD>[pencode2html(loaded_data)]</BODY></HTML>", "window=[open_file]")
 			return TRUE
-
+		//RS Add - \[talogo\] - Inserts Talon logo image.
 		if("PRG_taghelp")
 			to_chat(usr, "<span class='notice'>The hologram of a googly-eyed paper clip helpfully tells you:</span>")
 			var/help = {"

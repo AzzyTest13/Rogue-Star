@@ -43,7 +43,7 @@
 /obj/item/weapon/stamp/cmo
 	name = "chief medical officer's rubber stamp"
 	icon_state = "stamp-cmo"
-
+//RS Add
 /obj/item/weapon/stamp/talon
 	name = "talon's rubber stamp"
 	icon_state = "stamp-tal"

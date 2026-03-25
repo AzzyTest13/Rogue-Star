@@ -563,7 +563,7 @@
 	icon_state = "redtag"
 	flags_inv = HIDEEARS|BLOCKHEADHAIR
 	body_parts_covered = HEAD|EYES
-
+//RS Add
 /obj/item/clothing/head/caphat/talon/pilot
 	name = "Talon pilot's cap"
 	desc = "It's a formal cap worn usually by ITV Talon's piloting personnel, emblazoned with the ITV Talon's logo on the front of the cap."

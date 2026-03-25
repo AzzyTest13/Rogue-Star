@@ -136,7 +136,7 @@
 	adhoc_fallback = TRUE
 	icon_state = "pilot_headset"
 	ks2type = /obj/item/device/encryptionkey/talon
-
+//RS Add
 /obj/item/device/radio/headset/talon/alt
 	name = "talon bowman headset"
 	adhoc_fallback = TRUE
