@@ -1,10 +1,23 @@
 
 var/list/obj/machinery/photocopier/faxmachine/allfaxes = list()
-var/list/admin_departments = list("[using_map.boss_name]", "Virgo-Prime Governmental Authority", "Virgo-Erigonne Job Boards", "Supply", "Talon Headquarters") //RS Edit
+var/list/admin_departments = list() // RS Edit: Fax machine fix (Lira, March 2026)
 var/list/alldepartments = list()
 var/global/last_fax_role_request
 
 var/list/adminfaxes = list()	//cache for faxes that have been sent to admins
+
+// RS Add: Fax machine fix (Lira, March 2026)
+/proc/setup_fax_admin_departments()
+	if(!using_map)
+		return
+
+	admin_departments = list(
+		"[using_map.boss_name]",
+		"Virgo-Prime Governmental Authority",
+		"Virgo-Erigonne Job Boards",
+    "Talon Headquarters",
+		"Supply"
+	)
 
 /obj/machinery/photocopier/faxmachine
 	name = "fax machine"
