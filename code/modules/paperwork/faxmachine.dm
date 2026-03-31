@@ -15,7 +15,7 @@ var/list/adminfaxes = list()	//cache for faxes that have been sent to admins
 		"[using_map.boss_name]",
 		"Virgo-Prime Governmental Authority",
 		"Virgo-Erigonne Job Boards",
-    "Talon Headquarters",
+		"Talon Headquarters", //RS Add
 		"Supply"
 	)
 
