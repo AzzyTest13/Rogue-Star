@@ -467,6 +467,7 @@ so... Use it wisely and good luck!<br>\
 		/obj/item/clothing/under/rank/orderly,
 		/obj/item/clothing/under/rank/talon/proper/refreshed, //RS Add
 		/obj/item/clothing/accessory/solgov/department/medical/army,
+		/obj/item/clothing/suit/storage/toggle/labcoat/talon, //RS Add
 		/obj/item/clothing/suit/storage/toggle/labcoat/modern,
 		/obj/item/clothing/suit/storage/toggle/fr_jacket,
 		/obj/item/clothing/shoes/white,
@@ -515,6 +516,7 @@ so... Use it wisely and good luck!<br>\
 		/obj/item/clothing/head/pilot,
 		/obj/item/clothing/under/rank/pilot1,
 		/obj/item/clothing/under/rank/talon/pilot/refreshed, //RS Add
+		/obj/item/clothing/suit/storage/talonbomberjacket, //RS Add
 		/obj/item/clothing/suit/storage/toggle/bomber/pilot,
 		/obj/item/clothing/gloves/fingerless,
 		/obj/item/weapon/reagent_containers/food/snacks/liquidfood,
