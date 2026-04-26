@@ -200,9 +200,9 @@
 
 	l_ear = /obj/item/device/radio/headset/talon
 	shoes = /obj/item/clothing/shoes/black
-	head = /obj/item/clothing/head/caphat/talon/refreshed  //RS edit
+	head = /obj/item/clothing/head/pilot_vr/talon
 	uniform = /obj/item/clothing/under/rank/talon/pilot
-	suit = /obj/item/clothing/suit/storage/talonbomberjacket //RS Edit
+	suit = /obj/item/clothing/suit/storage/toggle/bomber/pilot
 	gloves = /obj/item/clothing/gloves/fingerless
 	glasses = /obj/item/clothing/glasses/fakesunglasses/aviator
 	uniform_accessories = list(/obj/item/clothing/accessory/storage/webbing/pilot1 = 1)
@@ -224,7 +224,7 @@
 	satchel_one = /obj/item/weapon/storage/backpack/satchel/med
 	messenger_bag = /obj/item/weapon/storage/backpack/messenger/med
 	uniform = /obj/item/clothing/under/rank/talon/proper
-	suit = /obj/item/clothing/suit/storage/toggle/labcoat/talon //RS Edit
+	suit = /obj/item/clothing/suit/storage/toggle/labcoat/talon
 	l_hand = /obj/item/weapon/storage/firstaid/regular
 	r_pocket = /obj/item/device/flashlight/pen
 	backpack = /obj/item/weapon/storage/backpack/talon

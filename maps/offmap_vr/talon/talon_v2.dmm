@@ -1814,7 +1814,11 @@
 	pixel_y = 7
 	},
 /obj/item/clothing/head/caphat/talon{
-	pixel_x = -5
+	pixel_x = -10;
+	pixel_y = 5
+	},
+/obj/item/clothing/head/caphat/talon/refreshed{
+	pixel_y = -8
 	},
 /turf/simulated/floor/wood,
 /area/talon_v2/crew_quarters/cap_room)
@@ -1938,7 +1942,6 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/light,
-/obj/item/clothing/head/caphat/talon/refreshed,
 /turf/simulated/floor/wood,
 /area/talon_v2/crew_quarters/cap_room)
 "fA" = (
@@ -13219,6 +13222,9 @@
 /obj/machinery/firealarm{
 	dir = 8;
 	pixel_x = -24
+	},
+/obj/item/clothing/head/caphat/talon/pilot{
+	pixel_y = 10
 	},
 /turf/simulated/floor/carpet,
 /area/talon_v2/crew_quarters/pilot_room)
