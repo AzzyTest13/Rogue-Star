@@ -165,8 +165,8 @@
 	playtime_only = TRUE
 	pto_type = PTO_TALON
 	timeoff_factor = 1
-	access = list(access_talon, access_talon_bridge, access_talon_medical, access_talon_engineer, access_talon_cargo, access_talon_security, , access_talon_pilot) //RS Edit
-	minimal_access = list(access_talon, access_talon_bridge, access_talon_medical, access_talon_engineer, access_talon_cargo, access_talon_security, , access_talon_pilot) //RS Edit
+	access = list(access_talon, access_talon_bridge, access_talon_medical, access_talon_engineer, access_talon_cargo, access_talon_security, access_talon_pilot) //RS Edit
+	minimal_access = list(access_talon, access_talon_bridge, access_talon_medical, access_talon_engineer, access_talon_cargo, access_talon_security, access_talon_pilot) //RS Edit
 	alt_titles = list("Talon Excavator" = /datum/alt_title/talon_excavator)
 
 /datum/alt_title/talon_excavator
@@ -184,7 +184,7 @@
 	l_ear = /obj/item/device/radio/headset/talon
 	glasses = /obj/item/clothing/glasses/sunglasses
 	uniform = /obj/item/clothing/under/rank/talon/command
-	suit = /obj/item/clothing/suit/storage/talonbomberjacket/captain //RS Edit
+	suit = /obj/item/clothing/suit/storage/talonbomberjacket/captain //RS Add
 	shoes = /obj/item/clothing/shoes/laceup // RS Edit
 	backpack = /obj/item/weapon/storage/backpack/talon
 	satchel_one = /obj/item/weapon/storage/backpack/satchel/talon
@@ -224,7 +224,7 @@
 	satchel_one = /obj/item/weapon/storage/backpack/satchel/med
 	messenger_bag = /obj/item/weapon/storage/backpack/messenger/med
 	uniform = /obj/item/clothing/under/rank/talon/proper
-	suit = /obj/item/clothing/suit/storage/toggle/labcoat/talon
+	suit = /obj/item/clothing/suit/storage/toggle/labcoat
 	l_hand = /obj/item/weapon/storage/firstaid/regular
 	r_pocket = /obj/item/device/flashlight/pen
 	backpack = /obj/item/weapon/storage/backpack/talon
