@@ -408,6 +408,7 @@ so... Use it wisely and good luck!<br>\
 	starts_with = list(
 		/obj/item/weapon/storage/backpack/dufflebag/talon, //RS Add
 		/obj/item/clothing/under/rank/talon/command/refreshed, //RS Add
+		/obj/item/clothing/suit/storage/talonbomberjacket/captain, //RS Add
 		/obj/item/clothing/head/beret/talon/command,
 		/obj/item/clothing/suit/storage/vest,
 		/obj/item/clothing/head/helmet,
@@ -466,7 +467,6 @@ so... Use it wisely and good luck!<br>\
 		/obj/item/clothing/head/soft/talon,
 		/obj/item/clothing/under/rank/orderly,
 		/obj/item/clothing/under/rank/talon/proper/refreshed, //RS Add
-		/obj/item/clothing/suit/storage/talonbomberjacket/captain, //RS Add
 		/obj/item/clothing/accessory/solgov/department/medical/army,
 		/obj/item/clothing/suit/storage/toggle/labcoat/talon, //RS Add
 		/obj/item/clothing/suit/storage/toggle/labcoat/modern,
