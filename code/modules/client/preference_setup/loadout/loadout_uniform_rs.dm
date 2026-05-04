@@ -1,5 +1,5 @@
 // New Talon Uniforms
-/datum/gear/uniform/talon
+/datum/gear/uniform/refreshedtalonbasic
 	display_name = "Talon Uniforms"
 	description = "Select from a range of outfits available to all Talon crews."
 	allowed_roles = list("Talon Captain","Talon Doctor","Talon Engineer","Talon Pilot","Talon Guard","Talon Miner")
@@ -7,7 +7,7 @@
 	sort_category = "Uniforms"
 	cost = 1
 
-/datum/gear/uniform/talon/New()
+/datum/gear/uniform/refreshedtalonbasic/New()
 	..()
 	var/list/selector_uniforms = list(
 		"Refreshed Talon crew Uniform"=/obj/item/clothing/under/rank/talon/basic/refreshed,
@@ -15,7 +15,7 @@
 	)
 	gear_tweaks += new/datum/gear_tweak/path(sortAssoc(selector_uniforms))
 
-/datum/gear/uniform/talon_captain
+/datum/gear/uniform/refreshedtaloncaptain
 	display_name = "Talon - Captain Uniforms"
 	description = "Select from a range of outfits available to all Talon Captain."
 	allowed_roles = list("Talon Captain")
@@ -23,7 +23,7 @@
 	sort_category = "Uniforms"
 	cost = 1
 
-/datum/gear/uniform/talon_captain/New()
+/datum/gear/uniform/refreshedtaloncaptain/New()
 	..()
 	var/list/selector_uniforms = list(
 		"Refreshed Talon Command Uniform"=/obj/item/clothing/under/rank/talon/command/refreshed,
@@ -31,7 +31,7 @@
 	)
 	gear_tweaks += new/datum/gear_tweak/path(sortAssoc(selector_uniforms))
 
-/datum/gear/uniform/talon_pilot
+/datum/gear/uniform/refreshedtalonpilot
 	display_name = "Talon - Pilot Uniforms"
 	description = "Select from a range of outfits available to all Talon Pilot."
 	allowed_roles = list("Talon Pilot")
@@ -39,7 +39,7 @@
 	sort_category = "Uniforms"
 	cost = 1
 
-/datum/gear/uniform/talon_pilot/New()
+/datum/gear/uniform/refreshedtalonpilot/New()
 	..()
 	var/list/selector_uniforms = list(
 		"Refreshed Talon Pilot Uniform"=/obj/item/clothing/under/rank/talon/pilot/refreshed,
@@ -47,7 +47,7 @@
 	)
 	gear_tweaks += new/datum/gear_tweak/path(sortAssoc(selector_uniforms))
 
-/datum/gear/uniform/talon_security
+/datum/gear/uniform/refreshedtalonsecurity
 	display_name = "Talon - Guard Uniforms"
 	description = "Select from a range of outfits available to all Talon Guard."
 	allowed_roles = list("Talon Guard")
@@ -55,7 +55,7 @@
 	sort_category = "Uniforms"
 	cost = 1
 
-/datum/gear/uniform/talon_security/New()
+/datum/gear/uniform/refreshedtalonsecurity/New()
 	..()
 	var/list/selector_uniforms = list(
 		"Refreshed Talon Guard Uniform"=/obj/item/clothing/under/rank/talon/security/refreshed,
@@ -63,7 +63,7 @@
 	)
 	gear_tweaks += new/datum/gear_tweak/path(sortAssoc(selector_uniforms))
 
-/datum/gear/uniform/talon_medical
+/datum/gear/uniform/refreshedtalonmedical
 	display_name = "Talon - Doctor Uniforms"
 	description = "Select from a range of outfits available to all Talon Doctor's."
 	allowed_roles = list("Talon Doctor")
@@ -71,7 +71,7 @@
 	sort_category = "Uniforms"
 	cost = 1
 
-/datum/gear/uniform/talon_medical/New()
+/datum/gear/uniform/refreshedtalonmedical/New()
 	..()
 	var/list/selector_uniforms = list(
 		"Refreshed Talon Doctor Uniform"=/obj/item/clothing/under/rank/talon/proper/refreshed,
